@@ -14,7 +14,7 @@ export default function Header({cart, removeFromCart, increaseQuantity, decrease
 						<a href="index.html">
 							<img
 								className="img-fluid"
-								src="./public/img/logo.svg"
+								src="/carrito-de-compras/img/logo.svg"
 								alt="imagen logo"
 							/>
 						</a>
@@ -23,7 +23,7 @@ export default function Header({cart, removeFromCart, increaseQuantity, decrease
 						<div className="carrito">
 							<img
 								className="img-fluid"
-								src="./public/img/carrito.png"
+								src="/carrito-de-compras/img/carrito.png"
 								alt="imagen carrito"
 							/>
 
@@ -49,7 +49,7 @@ export default function Header({cart, removeFromCart, increaseQuantity, decrease
 												<td>
 													<img
 														className="img-fluid"
-														src={`./public/img/${guitar.image}.jpg`}
+														src={`/carrito-de-compras/img/${guitar.image}.jpg`}
 														alt="imagen guitarra"
 													/>
 												</td>
